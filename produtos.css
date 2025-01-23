@@ -1,0 +1,26 @@
+header{
+  background-color: #BBBBBB;
+  padding: 20px;
+}
+.caixa{
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+nav {
+  position: absolute; 
+  top: 110px; /*em relaçao ao topo*/
+  right: 0px;
+}
+nav li{
+  display: inline; /*deixa a lista em linha*/
+  margin: 0 0 0 15px; /*Margem C E B D */
+  
+}
+nav a{
+  text-transform: uppercase; /*Letra maiusculas*/
+  color: black;
+  text-decoration: none;
+  font-weight: bold; /*define o "peso" com negrito*/
+  font-size: 22px;
+}
